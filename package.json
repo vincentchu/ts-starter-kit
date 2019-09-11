@@ -1,0 +1,21 @@
+{
+  "name": "ts-starter-kit",
+  "version": "1.0.0",
+  "description": "Typescript starter kit",
+  "scripts": {
+    "build": "$(npm bin)/webpack",
+    "clean": "rm public/*"
+  },
+  "author": "Vincent Chu",
+  "license": "MIT",
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
